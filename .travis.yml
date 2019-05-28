@@ -4,13 +4,6 @@ cache:
   directories:
   - $HOME/.composer/cache
 
-php:
-  - "5.6"
-  - "7.0"
-  - "7.1"
-  - "7.2"
-  - "7.3"
-
 env:
   global:
   - COMPOSER_ARGS="--no-interaction"
@@ -29,6 +22,9 @@ matrix:
     - php: "7.2"
       env:
         - TEST_COVERAGE=true
+    - php: "7.3"
+      env:
+        - TEST_COVERAGE=true
 
 before_install:
   - travis_retry composer self-update
@@ -38,7 +34,7 @@ install:
   - composer show
 
 script:
-  - if [[ "$TEST_COVERAGE" == true ]]; then composer test-coverage; fi
+  - if [[ $TEST_COVERAGE == 'true' ]]; then composer test-coverage; fi
   - composer cs;
   - composer cpd;
 
