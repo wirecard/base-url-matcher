@@ -1,4 +1,4 @@
-# wirecard/baseUrlMatcher
+# wirecard/base-url-matcher
 
 ***
 ### General information 

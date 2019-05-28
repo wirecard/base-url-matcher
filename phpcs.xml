@@ -1,11 +1,6 @@
 <?xml version="1.0"?>
 <ruleset name="OpenCart">
-    <description>The Code Sniffer rule set for OpenCart</description>
-
-    <file>admin</file>
-    <file>catalog</file>
-    <exclude-pattern>./system/*</exclude-pattern>
-
+    <description>The Code Sniffer rule set for Base Url Matcher</description>
     <rule ref="Squiz.ControlStructures.InlineIfDeclaration" />
 
     <!-- Closing PHP tags are not allowed -->
