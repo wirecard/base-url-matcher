@@ -29,9 +29,14 @@
  * Please do not use the plugin if you do not agree to these terms of use!
  */
 
-namespace Wirecard;
+namespace Wirecard\BaseUrlMatcher;
 
-class BaseUrlMatcher
+/**
+ * Class BaseUrlMatcher
+ * @package Wirecard
+ * @since 1.0.0
+ */
+class BaseUrlMatcherService
 {
     const API_WIRECARD_URL = 'api.wirecard.com';
     const API_WDCEE_WIRECARD_URL = 'api-wdcee.wirecard.com';
@@ -42,6 +47,7 @@ class BaseUrlMatcher
      * Get WppUrl from base Url
      * @param string $baseUrl
      * @return string
+     * @since 1.0.0
      */
     public static function getWppUrl($baseUrl)
     {

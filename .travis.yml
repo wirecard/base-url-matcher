@@ -12,19 +12,19 @@ matrix:
   include:
     - php: "5.6"
       env:
-        - TEST_COVERAGE=false
-    - php: "7"
+        - "TEST_COVERAGE=false"
+    - php: "7.0"
       env:
-        - TEST_COVERAGE=true
+        - "TEST_COVERAGE=true"
     - php: "7.1"
       env:
-        - TEST_COVERAGE=true
+        - "TEST_COVERAGE=true"
     - php: "7.2"
       env:
-        - TEST_COVERAGE=true
+        - "TEST_COVERAGE=true"
     - php: "7.3"
       env:
-        - TEST_COVERAGE=true
+        - "TEST_COVERAGE=true"
 
 before_install:
   - travis_retry composer self-update

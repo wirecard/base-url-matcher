@@ -12,7 +12,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Wirecard\\": "src/"
+            "Wirecard\\BaseUrlMatcher\\": "src/"
         }
     },
     "scripts": {
@@ -20,7 +20,8 @@
         "cs-fix" : "phpcbf src/",
         "cpd" : "phpcpd --min-lines 5 --min-tokens 70 --log-pmd tests/_output/phpcpd_report.xml src/",
         "test": "codecept run unit",
-        "test-coverage": "codecept run unit --coverage --xml --coverage-html --coverage-xml"
+        "test-coverage": "codecept run unit --coverage --xml --coverage-xml",
+        "test-coverage-html": "codecept run unit --coverage-html"
     }
 
 }
