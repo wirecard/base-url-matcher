@@ -1,0 +1,7 @@
+{
+    "name": "wirecard/base-url-matcher",
+    "description": "Library for syncing Base URL with WPP URL",
+    "type": "library",
+    "license": "GNU General Public License v3.0",
+    "require": {}
+}
