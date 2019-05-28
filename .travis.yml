@@ -20,7 +20,8 @@ before_install:
 
 script:
   - composer test-coverage ;
-  - composer cs-check ;
+  - composer cs;
+  - composer cpd;
 
 notifications:
   email: false

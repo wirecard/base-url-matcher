@@ -43,7 +43,8 @@ class BaseUrlMatcher
      * @param string $baseUrl
      * @return string
      */
-    public static function getWppUrl($baseUrl) {
+    public static function getWppUrl($baseUrl)
+    {
         switch ($baseUrl) {
             case self::API_TEST_WIRECARD_URL:
             case self::API_WIRECARD_URL:
