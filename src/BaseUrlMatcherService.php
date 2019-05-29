@@ -38,10 +38,10 @@ namespace Wirecard\BaseUrlMatcher;
  */
 class BaseUrlMatcherService
 {
-    const API_WIRECARD_URL = 'api.wirecard.com';
-    const API_WDCEE_WIRECARD_URL = 'api-wdcee.wirecard.com';
-    const API_TEST_WIRECARD_URL = 'api-test.wirecard.com';
-    const API_WDCEE_TEST_WIRECARD_URL = 'api-wdcee-test.wirecard.com';
+    const API_WIRECARD_URL = 'https://api.wirecard.com';
+    const API_WDCEE_WIRECARD_URL = 'https://api-wdcee.wirecard.com';
+    const API_TEST_WIRECARD_URL = 'https://api-test.wirecard.com';
+    const API_WDCEE_TEST_WIRECARD_URL = 'https://api-wdcee-test.wirecard.com';
 
     /**
      * Get WppUrl from base Url
