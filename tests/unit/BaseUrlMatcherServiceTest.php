@@ -1,4 +1,11 @@
 <?php
+/**
+ * Shop System Plugins:
+ * - Terms of Use can be found under:
+ * https://github.com/wirecard/oxid-ee/blob/master/_TERMS_OF_USE
+ * - License can be found under:
+ * https://github.com/wirecard/oxid-ee/blob/master/LICENSE
+ */
 
 namespace Wirecard\BaseUrlMatcher;
 
@@ -42,7 +49,7 @@ class BaseUrlMatcherServiceTest extends Unit
     public function testBaseUrlNotStandard()
     {
         $actual = BaseUrlMatcherService::getWppUrl('https://test.wirecard.com');
-        $expected = 'https://test.wirecard.com';
+        $expected = 'https://wpp-test.wirecard.com';
         $this->assertEquals($expected, $actual);
     }
 }
