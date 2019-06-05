@@ -2,9 +2,9 @@
 /**
  * Shop System Plugins:
  * - Terms of Use can be found under:
- * https://github.com/wirecard/oxid-ee/blob/master/_TERMS_OF_USE
+ * https://github.com/wirecard/base-url-matcher/blob/master/TERMS_OF_USE
  * - License can be found under:
- * https://github.com/wirecard/oxid-ee/blob/master/LICENSE
+ * https://github.com/wirecard/base-url-matcher/blob/master/LICENSE
  */
 
 namespace Wirecard\BaseUrlMatcher;
