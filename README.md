@@ -6,6 +6,7 @@
 [![PHP v7.1](https://img.shields.io/badge/php-v7.1-yellow.svg)](http://www.php.net)
 [![PHP v7.2](https://img.shields.io/badge/php-v7.2-yellow.svg)](http://www.php.net)
 [![PHP v7.3](https://img.shields.io/badge/php-v7.3-yellow.svg)](http://www.php.net)
+[![Build status](https://api.travis-ci.org/wirecard/base-url-matcher.svg?branch=master)](https://travis-ci.org/wirecard/base-url-matcher)
 
 ***
 ## General information 
