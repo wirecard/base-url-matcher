@@ -2,7 +2,7 @@
     "name": "wirecard/base-url-matcher",
     "description": "Library for syncing Base URL with WPP URL",
     "type": "library",
-    "license": "GPL-3.0-only",
+    "license": "MIT",
     "require": {
         "php": ">=5.6"
     },
